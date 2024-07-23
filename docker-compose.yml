@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  nodeapp:
+    build: .
+    image: your-node-image
+    restart: always
+    ports:
+      - "3008:3008"
+    volumes:
+      - ./src:/usr/src/app/src  # 将主机上的 src 目录挂载到容器内的 src 目录
+      - ./logs:/usr/src/app/logs  # 持久化日志目录
+    network_mode: "host"
+
