@@ -1,0 +1,46 @@
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE/编辑器
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
+
+# 构建工具
+dist/
+build/
+
+# 依赖管理
+package-lock.json
+yarn.lock
+
+# 环境配置文件
+.env
+
+# 上传文件
+*.csv
+*.xlsx
+*.pdf
+
+# 其他
+*.swp
+*.DS_Store
+test.js

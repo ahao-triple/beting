@@ -1,0 +1,42 @@
+{
+  "name": "hundersd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/mongoose": "^5.11.97",
+    "@types/pino": "^7.0.5",
+    "@types/pino-pretty": "^5.0.0",
+    "@types/socket.io": "^3.0.2",
+    "@types/ws": "^8.5.11",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "check": "^1.0.0",
+    "es-toolkit": "^1.9.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mogoose": "^0.0.1-security",
+    "nodemon": "^3.1.4",
+    "pino": "^9.2.0",
+    "pino-pretty": "^11.2.1",
+    "socket.io": "^4.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17"
+  }
+}
