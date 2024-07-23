@@ -1,7 +1,9 @@
 import mongoose from 'mongoose';
 import logger from '../logger';
+import {config} from "./index";
 
-const MONGO_URI = 'mongodb://localhost:27017/casino';
+let url = `mongodb://${config.db.root}@${config.db.host}:${config.db.port}/${config.db.name}`
+const MONGO_URI = url;
 
 export const connectDatabase = async () => {
     try {
